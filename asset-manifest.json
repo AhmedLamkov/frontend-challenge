@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4e1919d.css",
-    "main.js": "/static/js/main.7cdc95ab.js",
-    "index.html": "/index.html",
-    "static/media/favorite_border.svg": "/static/media/favorite_border.54448762805ee4de20d7.svg",
-    "static/media/favorite_filled.svg": "/static/media/favorite_filled.f43b77fd39761ccb2ac4.svg",
-    "static/media/favorite_saved.svg": "/static/media/favorite_saved.2295503ffae2b28fb092.svg",
-    "main.a4e1919d.css.map": "/static/css/main.a4e1919d.css.map",
-    "main.7cdc95ab.js.map": "/static/js/main.7cdc95ab.js.map"
+    "main.css": "/frontend-challenge/static/css/main.b3629abb.css",
+    "main.js": "/frontend-challenge/static/js/main.7cdc95ab.js",
+    "index.html": "/frontend-challenge/index.html",
+    "static/media/favorite_border.svg": "/frontend-challenge/static/media/favorite_border.54448762805ee4de20d7.svg",
+    "static/media/favorite_filled.svg": "/frontend-challenge/static/media/favorite_filled.f43b77fd39761ccb2ac4.svg",
+    "static/media/favorite_saved.svg": "/frontend-challenge/static/media/favorite_saved.2295503ffae2b28fb092.svg",
+    "main.b3629abb.css.map": "/frontend-challenge/static/css/main.b3629abb.css.map",
+    "main.7cdc95ab.js.map": "/frontend-challenge/static/js/main.7cdc95ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e1919d.css",
+    "static/css/main.b3629abb.css",
     "static/js/main.7cdc95ab.js"
   ]
 }
