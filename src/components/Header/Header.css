@@ -10,6 +10,12 @@
 	padding: 0 62px;
 	height: 100%;
 }
+@media screen and (max-width: 576px) {
+	.header_nav {
+		padding: 0 30px;
+	}
+}
+
 .header_link {
 	height: 100%;
 	display: flex;
@@ -20,7 +26,9 @@
 	color: white;
 	padding: 0 15px;
 	font-family: "Roboto", sans-serif;
+	background: none;
+	border: none;
 }
-.header_link:hover {
+.header_link:hover, .header_link--active {
 	background-color: #1e88e5;
 }

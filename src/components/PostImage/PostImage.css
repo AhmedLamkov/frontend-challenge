@@ -2,6 +2,7 @@
 	width: 225px;
 	height: 225px;
 	transition-duration: 0.3s;
+	position: relative;
 }
 
 .post:hover {
@@ -24,13 +25,14 @@
 	width: 48px;
 	height: 48px;
 	background-image: url("../../img/favorite_border.svg");
+	cursor: pointer;
 }
 
 .post_favorite:hover {
 	background-image: url("../../img/favorite_filled.svg");
 }
 
-.post_favorite--active {
+.post_favorite.post_favorite--saved {
 	background-image: url("../../img/favorite_saved.svg");
 }
 

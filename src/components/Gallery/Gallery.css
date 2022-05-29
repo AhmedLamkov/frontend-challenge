@@ -1,7 +1,8 @@
 .gallery {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 225px);
+	justify-content: space-evenly;
+	margin: 0 auto;
 	padding: 48px 62px;
 	column-gap: 48px;
 	row-gap: 52px;

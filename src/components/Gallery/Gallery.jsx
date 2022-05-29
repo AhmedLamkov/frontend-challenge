@@ -1,11 +1,11 @@
 import "./Gallery.css";
 import PostImage from "../PostImage";
 
-const Gallery = (props) => {
+const Gallery = ({ images, favorites, addToFavorites, removeFromFavorites }) => {
 	return (
 		<div className="gallery">
-			{props.images.map((image) => (
-				<PostImage url={image.url} />
+			{images?.map((image) => (
+				<PostImage key={image.id} data={image} isInFavorites={favorites[image.id]} addToFavorites={addToFavorites} removeFromFavorites={removeFromFavorites}/>
 			))}
 		</div>
 	);
