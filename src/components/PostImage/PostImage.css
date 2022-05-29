@@ -1,0 +1,39 @@
+.post {
+	width: 225px;
+	height: 225px;
+	transition-duration: 0.3s;
+}
+
+.post:hover {
+	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24), 0px 9px 18px rgba(0, 0, 0, 0.18);
+	transform: scale(1.1);
+}
+
+.post_content {
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.post_favorite {
+	display: none;
+	position: absolute;
+	bottom: 19px;
+	right: 15px;
+	width: 48px;
+	height: 48px;
+	background-image: url("../../img/favorite_border.svg");
+}
+
+.post_favorite:hover {
+	background-image: url("../../img/favorite_filled.svg");
+}
+
+.post_favorite--active {
+	background-image: url("../../img/favorite_saved.svg");
+}
+
+.post:hover .post_favorite {
+	display: block;
+}

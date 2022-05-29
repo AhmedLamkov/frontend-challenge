@@ -1,0 +1,26 @@
+.header {
+	height: 64px;
+	background-color: #2196f3;
+	display: flex;
+	align-items: center;
+}
+.header_nav {
+	display: flex;
+	align-items: center;
+	padding: 0 62px;
+	height: 100%;
+}
+.header_link {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	line-height: 14px;
+	text-decoration: none;
+	color: white;
+	padding: 0 15px;
+	font-family: "Roboto", sans-serif;
+}
+.header_link:hover {
+	background-color: #1e88e5;
+}
